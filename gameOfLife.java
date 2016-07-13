@@ -1,7 +1,7 @@
 
 public class GameOfLife {
-	boolean[][] grid; //rows, columns
-	int time = 0; //number of rounds played
+	private boolean[][] grid; //rows, columns
+	private int time = 0; //number of rounds played
 	
 	//This is the default constructor
 	GameOfLife() {
